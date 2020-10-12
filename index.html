@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Checkout</h1>
+    <main>
+        <div class="cart" >
+            <div class="product">
+                <div class="bag">
+                    <img src="./images/photo1.png" alt="bag">
+                    <div class="product-cost" >
+                        <h2>Vintage Backbag</h2>
+                        <p class="discount">$54.99 <span>$94.99</span></p>
+                    </div>
+                </div>
+
+                <div class="shoes">
+                    <img src="./images/photo2.png" alt="shoes">
+                    <div class="product-cost" >
+                        <h2>Levi Shoes</h2>
+                        <p class="discount">$74.99 <span>$124.99</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="end-cost">
+                <div class="cost">
+                    <div class="shipping" >
+                        <p>Shipping</p>
+                        <p>$19</p>
+                    </div>
+
+                    <div class="total">
+                        <p>Total</p>
+                        <p>$148.98</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <form action="">
+            <div class="all-contact">
+                <h1>Contact İnformation</h1>
+                <div class="contact-email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+                </div>
+
+                <div class="contact-phone">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone..." required>
+                </div>
+            </div>
+
+            <div class="other-information">
+                <h1>Shipping address</h1>
+                <div class="full-name">
+                    <label for="name">Full name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Full name..." required>
+                </div>
+
+                <div class="address-information">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address" placeholder="Enter your address..." required>
+                </div>
+
+                <div class="city-information">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city" placeholder="Enter your city..." required>
+                </div>
+
+                <div class="phone-information">
+                    <label for="phonee">Phone</label>
+                    <input type="tel" name="phone" id="phonee" placeholder="Enter your phone..." required>
+                </div>
+                
+                <div class="cntry-post" >
+                    <div class="country-information">
+                        <label for="country">Country</label>
+                        <select name="country" id="country" required>
+                            <option value="Turkey" selected>Turkey</option>
+                            <option value="Germany">Germany</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="UK">UK</option>
+                        </select>
+                    </div>
+
+                    <div class="postCode">
+                        <label for="post-code">Post Code</label>
+                        <input type="text" name="post-code" id="post-code" placeholder="Enter your postal code..." required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="check">
+                <input type="checkbox" name="see" id="see">
+                <label for="see">See this information next time</label>
+            </div>
+
+            <button type="submit" id="buton">
+                Continue
+            </button>
+        </form>
+    </main>
+</body>
+</html>
